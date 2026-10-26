@@ -1,8 +1,32 @@
 # AI 项目拆分组装法（ai-project-split-assembly）
 
-> A practical, six-phase engineering playbook for building AI applications with large language models — born from real construction-industry project management practice, battle-tested through five rounds of independent review.
+<img alt="license" src="https://img.shields.io/badge/license-MIT-blue.svg"> <img alt="phases" src="https://img.shields.io/badge/phases-6-informational.svg"> <img alt="docs" src="https://img.shields.io/badge/docs-Chinese-brightgreen.svg">
 
 **一句话**：把建筑工程的施工图思维用在 AI 项目上——**立项定总框架 → 施工图设计（100% 完美 + 5% 瑕疵处置）→ 分包照图施工 → 模块化组装 → 竣工验收 → 运维复盘**，全程文档即事实源、状态门只认证据。
+
+> A practical, six-phase engineering playbook for building AI applications with large language models — born from real construction-industry project management practice, battle-tested through five rounds of independent review.
+
+## 30 秒判断它适不适合你
+
+| 你的情况 | 建议 |
+|:---|:---|
+| 用 AI 做一个要跨几周、跨多个会话的项目 | ✅ 这就是它的主场 |
+| 项目做着做着就走偏、上下文丢了、AI 说「完成了」其实不对 | ✅ 从下面「为什么需要这套方法」看起 |
+| 一个人加一个 AI 助手单干 | ✅ 走「三档裁剪」的轻量档，别硬套全套 |
+| 只写一个脚本、一次性任务 | ❌ 不值得，流程本身有成本 |
+| 想找现成的代码框架 / SDK | ❌ 这里只有方法论和文档模板，没有代码 |
+
+## 它凭什么可信
+
+- **来自真实项目**：方法提炼自一个真实生产项目（市政管网算量与清单桌面软件），十余个任务包完整走通，含「中途插入新需求」的升版实例。
+- **经过外部打磨**：五轮独立评审、58 项意见全部闭环（明细见文末「评审史」）。
+- **有配套落地件**：[multi-session-project](https://github.com/pansir-heihei/multi-session-project) 把方法做成 AI 可直接加载的技能——本仓库管项目全生命周期，那个仓库教 AI 怎么拆怎么装。
+
+## 怎么开始读
+
+1. 先扫一眼下面的「六阶段主线」，30 秒建立全局图；
+2. 再读 `docs/00-总览-融合蓝图.md`，判断你的项目正处在哪个阶段；
+3. 赶时间就跳到「快速开始（30 秒）」。
 
 ## 为什么需要这套方法
 
